@@ -14,13 +14,7 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text("Welcome ${user.username}"),
-            SizedBox(height: 10),
-
-            Text("Email: ${user.email}"),
-            SizedBox(height: 10),
-          ],
+          children: [Text("Welcome ${user.username}"), SizedBox(height: 10)],
         ),
       ),
     );
